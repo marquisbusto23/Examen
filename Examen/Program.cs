@@ -14,10 +14,12 @@ namespace Examen
 
         static void Main(string[] args)
         {
+            //hago el array "piñon fijo"
             Console.WriteLine("5 nombres(por ahora)");
 
             string[] aleatorios = new string[10] { "Jusfbbn", "pedjbbro", "Pjkhpe", "cabhhhvos", "CohhkHn", "hghbjfbj", "JkkJjoo", "Yjgjkkkkkkubb", "cncn", "YY" };
-
+            
+            //para hacer dos array
             string[] mayusculas, minusculas;
             int mitad = aleatorios.Length / 2;
 
@@ -45,10 +47,11 @@ namespace Examen
                 Console.WriteLine(i);
             }
 
+            //para invertir
             Console.WriteLine("Invertir...");
             string frase, invertida = "";
                 int posicion = 0;
-            frase = minusculas[];
+            frase = minusculas[0];
 
                 posicion = frase.Length;
                 while (posicion > 0)
